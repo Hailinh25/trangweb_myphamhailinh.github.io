@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đắt tiền</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    width:8%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+nav li:hover{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 15px 10px 0px;
+}
+main {
+    padding: 50px;
+}
+.section {
+    margin-bottom: 50px;
+}
+.section p {
+    text-align: center;
+
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    color: brown;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    height:400px;
+    margin-bottom: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+.product h3{
+    margin-top: 10px 0;
+}
+.product button{
+    background-color: lightgrey;
+    color:#fff;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 35%;
+}
+.section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+#name{
+    margin-left: 54px;
+}
+#email{
+    margin-left: 74px;
+}
+#message{
+    margin-left: 57px;
+
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 370px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and(max-width:768px ) 
+{
+ header{
+    padding: 10px;
+ }   
+ nav ul {
+    flex-wrap: wrap;
+ }
+ nav li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+ .products{
+    flex-wrap: wrap;
+ }
+ .product{
+    width: calc(100%/2 - 10px);
+    margin-bottom: 30px;
+ }
+}
+
+</style>
+<body>
+    <section class="section">
+        <h2>Danh mục mỹ phẩm mới</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/16.jpg" >
+                <h3>Kem Đánh Răng Marvis Toothpaste Whitening Mint Làm Trắng Răng 85ml</h3>
+                <p>Giá: 210.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/17.jpg" >
+                <h3>Miếng Dán Mụn The Auragins Acne Rescue Patch Chứa BHA Làm Dịu Giảm Viêm Mụn 36 Miếng</h3>
+                <p>Giá: 99.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/18.jpg" >
+                <h3>Nước Cân Bằng Sáng Da, Ngừa Mụn AHA PHA The Auragins Gentle Brightening Toner 150ml</h3>
+                <p>Giá: 252.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Danh mục mỹ phẩm bán chạy</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/19.jpg" >
+                <h3>Tinh Dầu Sả Chanh Milaganic 10ml</h3>
+                <p>90.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/20.jpg" >
+                <h3>Lotion Dưỡng Thể Trắng Da Hasi Yogurt & Trái Cây Chiết Xuất Cam Tươi, Chanh Vàng UV30 180gr</h3>
+                <p>Giá: 112.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/21.jpg" >
+                <h3>Son Tint Nhũ UNLEASHIA Cho Đôi Môi Mềm Mịn, Căng Bóng, Lấp Lánh</h3>
+                <p>Giá: 169.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

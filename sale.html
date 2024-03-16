@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale</title>
+</head>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    width:8%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+nav li:hover{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 15px 10px 0px;
+}
+main {
+    padding: 50px;
+}
+.section {
+    margin-bottom: 50px;
+}
+.section p {
+    text-align: center;
+
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    color: brown;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    height:400px;
+    margin-bottom: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+.product h3{
+    margin-top: 10px 0;
+}
+.product button{
+    background-color: lightgrey;
+    color:#fff;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 35%;
+}
+.section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+#name{
+    margin-left: 54px;
+}
+#email{
+    margin-left: 74px;
+}
+#message{
+    margin-left: 57px;
+
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 370px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and(max-width:768px ) 
+{
+ header{
+    padding: 10px;
+ }   
+ nav ul {
+    flex-wrap: wrap;
+ }
+ nav li{
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+ .products{
+    flex-wrap: wrap;
+ }
+ .product{
+    width: calc(100%/2 - 10px);
+    margin-bottom: 30px;
+ }
+}
+
+</style>
+<body>
+    <section class="section">
+        <h2>Danh mục mỹ phẩm mới</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/10.jpg">
+                <h3>Box Máy Uốn Tóc Halio InstaCurl Và Máy Chăm Sóc Da Mặt Halio Hot & Cool Ultimate Beauty Kit - White & Periwinkle</h3>
+                <p>Giá: 3.349.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/11.jpg">
+                <h3>Box Máy Đẩy Tinh Chất Halio Hot & Cool Và Bộ Serum Vitamin C & Kem Dưỡng Vitamin B Skin&Lab Glowing Skin Is Always In - Coral</h3>
+                <p>Giá: 2.273.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/12.jpg">
+                <h3>Box Máy Tăm Nước Halio Professional Cordless Oral Irrigator Và Máy Tẩy Trắng Răng Halio Glowing Dental Essentials</h3>
+                <p>Giá: 2.989.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Danh mục mỹ phẩm bán chạy</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/13.jpg">
+                <h3>Bộ Cọ Trang Điểm Chuyên Nghiệp Lustre Pro Makeup Brush Set 10 Pcs - Gold Edition</h3>
+                <p>2.000.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/14.jpg">
+                <h3>Box Máy Đẩy Tinh Chất Halio Hot & Cool Và Máy Rửa Mặt Halio Sensitive Flawless Skin Overnight - White Và Baby Pink</h3>
+                <p>Giá: 2.677.000 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="images/15.jpg">
+                <h3>Box Luxe Body Essentials - Chăm Sóc Cơ Thể</h3>
+                <p>Giá: 3.611.00 VNĐ</p>
+                <button>Mua ngay</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
